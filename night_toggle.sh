@@ -1,6 +1,6 @@
 #!/bin/sh
 
-TOGGLE=$HOME/.toggle
+TOGGLE=$HOME/.gammastep_toggle
 
 if [ ! -e $TOGGLE ]; then
     touch $TOGGLE
@@ -9,4 +9,3 @@ else
     rm $TOGGLE
     pkill gammastep 
 fi
-
